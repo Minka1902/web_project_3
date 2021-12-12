@@ -1,0 +1,26 @@
+.cover__button{
+	width: 137px;
+	height: 48px;
+	font-family: 'Inter SemiBold';
+	background-color: #0278FE;
+	color: white;
+	text-decoration: none;
+	align-content: center;
+	z-index: 1;
+	margin-bottom: 19.8%;
+	margin: 0 0 19.8%;
+	border-radius: 5px;
+	border: 0;
+}
+
+.cover__button:hover{
+	cursor: pointer;
+	background-color: #0063D2;
+}
+
+@media screen and (max-width: 320px) {
+	.cover__button{
+		width: 150px;
+		font-size: 15px;
+	}
+}

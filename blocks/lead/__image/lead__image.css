@@ -1,0 +1,30 @@
+.lead__image{
+	margin: 0 auto;
+	padding-bottom: 92px;
+	filter: grayscale(100%);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+	.lead__image{
+		width: 768px;
+		height: 480px;
+		margin: 0 auto;
+		padding-bottom: 88px;
+		filter: grayscale(100%);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.lead__image{
+		width: 320px;
+		height: 200px;
+		padding-bottom: 64px;
+		filter: grayscale(100%);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead__image{
+		width: 100%;
+	}
+}
