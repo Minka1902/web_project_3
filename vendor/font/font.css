@@ -8,7 +8,7 @@
 
 /* ! Inter Semi Bold */
 @font-face{
-	font-family: 'Inter SemiBold';
+	font-family: 'Inter';
 	src: url('../font/interVariable/Inter-SemiBold/Inter-SemiBold.ttf') format('truetype');
 	src: url('../font/interVariable/Inter-SemiBold/Inter-SemiBold.woff') format('woff');
 	font-weight: 600;
@@ -16,7 +16,7 @@
 
 /* ! Inter Black */
 @font-face{
-	font-family: 'Inter Black';
+	font-family: 'Inter';
 	src: url('../font/interVariable/Inter-Black/Inter-Black.ttf') format('truetype');
 	src: url('../font/interVariable/Inter-Black/Inter-Black.woff') format('woff');
 	font-weight: 900;

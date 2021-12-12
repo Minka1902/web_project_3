@@ -1,13 +1,13 @@
 .cover__button{
 	width: 137px;
 	height: 48px;
-	font-family: 'Inter SemiBold';
-	background-color: #0278FE;
+	font-family: 'Inter';
+	font-weight: 600;
 	color: white;
 	text-decoration: none;
+	background-color: #0278FE;
 	align-content: center;
 	z-index: 1;
-	margin-bottom: 19.8%;
 	margin: 0 0 19.8%;
 	border-radius: 5px;
 	border: 0;
