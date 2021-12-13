@@ -1,16 +1,16 @@
-.place__artist{
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 122%;
-	margin: 0;
-	padding: 0;
-	grid-area: "artist";
+.place__artist {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    margin: 0;
+    padding: 0;
+    grid-area: "artist";
 }
 
 @media screen and (max-width: 320px) {
-	.place__artist{
-		max-width: 320px;
-	}
+    .place__artist {
+        max-width: 320px;
+    }
 }

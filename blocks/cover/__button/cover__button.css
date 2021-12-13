@@ -1,26 +1,18 @@
-.cover__button{
-	width: 137px;
-	height: 48px;
-	font-family: 'Inter';
-	font-weight: 600;
-	color: white;
-	text-decoration: none;
-	background-color: #0278FE;
-	align-content: center;
-	z-index: 1;
-	margin: 0 0 19.8%;
-	border-radius: 5px;
-	border: 0;
+.cover__button {
+    width: 137px;
+    height: 48px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: #0278FE;
+    align-content: center;
+    margin: 0;
+    border: 0;
+    border-radius: 4px;
 }
 
-.cover__button:hover{
-	cursor: pointer;
-	background-color: #0063D2;
-}
-
-@media screen and (max-width: 320px) {
-	.cover__button{
-		width: 150px;
-		font-size: 15px;
-	}
+.cover__button:hover {
+    cursor: pointer;
+    background-color: #0063D2;
 }
