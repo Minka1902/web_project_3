@@ -1,0 +1,12 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    grid-area: artist;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        max-width: 320px;
+    }
+}
