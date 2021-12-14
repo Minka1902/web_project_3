@@ -1,6 +1,6 @@
 .cover {
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 92px auto 0;
     display: flex;
     flex-direction: column;
     font-family: 'Inter', Arial, sans-serif;
@@ -13,7 +13,7 @@
     cursor: url("../../images/cursor.png"), default;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1280px) {
+@media screen and (min-width: 1000px) and (max-width: 1279.5px) {
     .cover {
         max-width: 1000px;
     }
@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767.5px) {
     .cover {
         max-width: 320px;
         min-height: 254px;
@@ -37,5 +37,6 @@
     .cover {
         max-width: 320px;
         min-height: 150px;
+        margin: 64px 0 0;
     }
 }
