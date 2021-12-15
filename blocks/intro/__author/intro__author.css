@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319.5px) {
     .intro__author {
         max-width: 100%;
         margin: 0 auto;

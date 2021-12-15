@@ -15,10 +15,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319.5px) {
     .intro__subtitle {
         line-height: 1.25;
         width: 100%;
-        margin: 40px 0;
+        margin: 40px auto;
     }
 }

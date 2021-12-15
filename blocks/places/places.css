@@ -1,5 +1,18 @@
 .places {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: 0 0 92px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.5px) {
+    .places {
+        width: 720px;
+        margin: 0 auto 92px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    .places {
+        margin: 0 0 64px;
+    }
 }

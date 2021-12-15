@@ -1,12 +1,12 @@
-.lead{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
-	.lead{
-		justify-content: start;
-		max-width: 320px;
-	}
+@media screen and (max-width: 319.5px) {
+    .lead {
+        justify-content: start;
+        max-width: 320px;
+    }
 }
