@@ -9,8 +9,9 @@
     grid-area: "artist";
 }
 
-@media screen and (max-width: 319.5px) {
+@media screen and (max-width: 767.5px) {
     .place__artist {
-        max-width: 319.5px;
+        max-width: 288px;
+        margin: 0 16px 0;
     }
 }
